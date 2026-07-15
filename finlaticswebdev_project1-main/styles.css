@@ -191,3 +191,28 @@ body {
   color: #0f766e;
   text-decoration: underline;
 }
+/* Custom text colors used in section files */
+.text-primary {
+  color: #0d9488;
+}
+
+.text-warm {
+  color: #f97316;
+}
+
+/* Make JavaScript form error styling work */
+.input-error {
+  border-color: #ef4444 !important;
+  background-color: #fef2f2;
+}
+
+/* Small responsive improvement */
+@media (max-width: 640px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}
